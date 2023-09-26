@@ -1,3 +1,4 @@
+/* header start */
 .header {
     background-color: #562EFF;
 }
@@ -38,4 +39,26 @@ nav>ul>li {
 nav>ul>li>a {
     text-decoration: none;
     color: azure;
+}
+
+/* header end */
+
+
+/* top players and top blogs start */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 29px;
+    margin-top: 40px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.player>img {
+    width: 56px;
+    height: 56px;
 }
