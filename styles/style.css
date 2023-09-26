@@ -1,3 +1,19 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+/* common style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFE4E8;
+}
+
+.container {
+    width: 870px;
+    background-color: #FFFFFF;
+    margin: auto;
+    justify-content: center;
+}
+
 /* header start */
 .header {
     background-color: #562EFF;
@@ -45,6 +61,17 @@ nav>ul>li>a {
 
 
 /* top players and top blogs start */
+.top-players {
+    padding-left: 30px;
+    padding-top: 33px;
+    padding-bottom: 42px;
+}
+
+.section-title {
+    color: #562EFF;
+    font-weight: 700;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
